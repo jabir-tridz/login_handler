@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include apcc *.css
+recursive-include apcc *.csv
+recursive-include apcc *.html
+recursive-include apcc *.ico
+recursive-include apcc *.js
+recursive-include apcc *.json
+recursive-include apcc *.md
+recursive-include apcc *.png
+recursive-include apcc *.py
+recursive-include apcc *.svg
+recursive-include apcc *.txt
+recursive-exclude apcc *.pyc
